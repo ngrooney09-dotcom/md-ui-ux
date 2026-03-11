@@ -13,23 +13,16 @@ nav:
     - Typographical Conventions: home.md#typographical conventions 
     - Notes and warning Messages: home.md#notes and warning messages 
 
-palette:
-  #Light mode
-  - scheme: default
-    primary: magenta
-    accent: magenta
-    toggle:
-      icon: material/weather-night
-      name: Dark mode
+    # Dark mode
+    - scheme: slate
+      primary: magenta
+      accent: magenta
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
 
-  #Dark mode
-  - scheme: slate
-    primary: magenta
-    accent: magenta
-    toggle:
-      icon: material/weather-sunny
-      name: Light mode
-
+nav:
+  - Home: home.md
 
 markdown_extensions:
   - admonition

@@ -21,8 +21,6 @@ nav:
         icon: material/weather-sunny
         name: Light mode
 
-nav:
-  - Home: home.md
 
 markdown_extensions:
   - admonition

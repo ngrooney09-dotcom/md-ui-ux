@@ -25,7 +25,7 @@ theme:
         name: Light mode
 
 nav:
-  - Home: home.md
+  - Home: index.md
   
 
 

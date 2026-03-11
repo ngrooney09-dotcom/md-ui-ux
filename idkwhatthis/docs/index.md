@@ -1,17 +1,62 @@
-# Welcome to MkDocs
+# Introduction
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This user guide will demonstrate the basics of working with [GitHub](https://github.com) using [Git](https://git-scm.com/docs).  
+In this documentation we will go over creating a new repository in GitHub, pushing an existing project into it, and working with an existing repository (someone else's code) in GitHub.
 
-## Commands
+!!! note
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+    :material-github: **GitHub** is a website that lets you host **git** repositories. It is used for collaboration with other developers, storing and reviewing code.
 
-## Project layout
+    :material-git: **Git** is a Version Control System used to track files and changes in your code over time.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Intended Users
+
+This documentation is intended for individuals who have no knowledge of GitHub or Version Control Systems.
+
+## Prerequisite Knowledge
+
+This documentation requires you to know the basics of Git version control system such as:
+
+- git clone
+- git status
+- git add
+- git commit
+- git push
+
+## Software Requirements
+
+The following software(s) must be installed and accounts created:
+
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Git Bash](https://git-scm.com/install/windows)
+- [GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+
+## Procedures Overview
+
+This document will cover the following tasks:
+
+- Connecting Gitbash to Visual Studio Code terminal
+- Creating a new repository in GitHub
+- Pushing an existing project to  GitHub
+- Working with existing code on GitHub
+  - Cloning
+  - Zip download
+
+## Typographical Conventions
+
+1. There will be no code blocks in this documentation. Screenshots will be used to guide users.
+2. Filenames will be formatted in monospace code format and put in  quotes.(`package.json`)
+3. Action verbs and UI elements will be bold. (**Click**, **Highlight**, **New Repository** etc)
+
+## Notes and Warning Messages
+
+This documentation will use message blocks to inform you of relevant information
+
+!!! warning "Warning"
+    Specifies content that must be read before proceeding.
+
+!!! info "Info"
+    Indicates additional information or tips.
+
+!!! success "Success"
+    Indicates what success looks like.

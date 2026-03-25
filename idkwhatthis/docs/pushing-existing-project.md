@@ -128,5 +128,5 @@ git push -u origin main
 
 ---
 
-##  Done!
+***  Done! ***
 Your project is now successfully pushed to GitHub and ready for collaboration 🚀

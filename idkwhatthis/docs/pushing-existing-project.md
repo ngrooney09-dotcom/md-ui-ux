@@ -25,14 +25,14 @@ Before starting, make sure you have:
 1. Open Your Project Folder 
 - Navigate to your existing project directory on your computer.
 
----
+
 
 2. Open a Terminal 
 Choose one of the following:
 - Right-click inside the folder → **Git Bash**
 - Open **VS Code** → Press `Ctrl + \`` to open the terminal
 
----
+
 
 3. Initialize Git 
 Start tracking your project:
@@ -41,7 +41,7 @@ Start tracking your project:
 git init
 ```
 
----
+
 
 4. Check Status *(Optional)* 
 See which files are untracked:
@@ -50,7 +50,7 @@ See which files are untracked:
 git status
 ```
 
----
+
 
 5. Stage Files 
 Add all files to staging:
@@ -59,7 +59,6 @@ Add all files to staging:
 git add .
 ```
 
----
 
 6. Commit Changes 
 Save your files with a message:
@@ -68,7 +67,7 @@ Save your files with a message:
 git commit -m "Initial commit"
 ```
 
----
+
 
 7. Create a GitHub Repository 
 - Go to GitHub
@@ -78,7 +77,7 @@ git commit -m "Initial commit"
 !!! warning
     Do not initialize the repository with a README, .gitignore, or license if you already have a local project.
 
----
+
 
 8. Copy Repository URL 
 Example:
@@ -87,7 +86,7 @@ Example:
 https://github.com/username/repo.git
 ```
 
----
+
 
 9. Add Remote Origin 
 Link your local project to GitHub:
@@ -96,7 +95,7 @@ Link your local project to GitHub:
 git remote add origin https://github.com/username/repo.git
 ```
 
----
+
 
 10. Verify Remote *(Optional)* 
 
@@ -104,7 +103,7 @@ git remote add origin https://github.com/username/repo.git
 git remote -v
 ```
 
----
+
 
 11. Push to GitHub 
 
@@ -120,13 +119,13 @@ git push -u origin main
     git branch
     ```
 
----
+
 
 12. Confirm Upload 
 - Refresh your GitHub repository page
 - Ensure all files have been uploaded successfully
 
----
+
 
 13.  Done! 
 Your project is now successfully pushed to GitHub and ready for collaboration 🚀

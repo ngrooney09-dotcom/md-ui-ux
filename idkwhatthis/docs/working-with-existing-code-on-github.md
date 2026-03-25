@@ -42,7 +42,7 @@ This section demonstrates how to work with existing code from a GitHub repositor
 
     ```git clone https://github.com/username/repo.git
     ```
----
+
 
 6. Navigate into the Project Folder
 

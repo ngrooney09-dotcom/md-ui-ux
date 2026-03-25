@@ -98,3 +98,5 @@ Before starting, ensure:
 
 *** 12 Done! ***
 - Git Bash should now run inside VS Code 🎉
+
+Next thing to do is [Create new git](https://ngrooney09-dotcom.github.io/idkwhattoname/new-github-repo/)

@@ -99,3 +99,5 @@ Before starting, ensure you have:
 
 *** Done! ***
 Your new GitHub repository is ready to use 
+
+Next thing to do is [Push work to git](https://ngrooney09-dotcom.github.io/idkwhattoname/pushing-existing-project/)

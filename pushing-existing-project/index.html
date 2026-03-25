@@ -394,6 +394,155 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-open-your-project-folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️ Open Your Project Folder
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-open-a-terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️ Open a Terminal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-initialize-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️ Initialize Git
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-check-status-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4️ Check Status (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-stage-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️ Stage Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-commit-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6️ Commit Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-create-a-github-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7️ Create a GitHub Repository
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-copy-repository-url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8️ Copy Repository URL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-add-remote-origin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9️ Add Remote Origin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-verify-remote-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10 Verify Remote (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-push-to-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11 Push to GitHub
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-confirm-upload" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12 Confirm Upload
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#done" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Done!
+      
+    </span>
+  </a>
+  
 </li>
       
     </ul>
@@ -502,88 +651,87 @@
 
 
 
-<h1 id="pushing-an-existing-project-to-github">Pushing an Existing Project to Github</h1>
+<h1 id="pushing-an-existing-project-to-github">Pushing an Existing Project to GitHub</h1>
 <h2 id="overview">Overview</h2>
-<p>This section guides users through the process of pushing an existing local project to a GitHub repository for version control and collaboration.</p>
+<p>This guide walks you through pushing an existing local project to a GitHub repository for version control and collaboration.</p>
+<hr />
 <h2 id="steps">Steps</h2>
-<ol>
-<li>Open Your Project Folder<ul>
-<li><strong>Navigate</strong> to your existing project directory on your computer.</li>
-</ul>
-</li>
-<li>
-<p>Open a Terminal in the Project Directory</p>
+<h3 id="1-open-your-project-folder">1️ Open Your Project Folder</h3>
 <ul>
-<li><strong>Right-click</strong> inside the folder and select Git Bash, or</li>
-<li><strong>Open</strong> Visual Studio Code and launch the terminal.</li>
+<li>Navigate to your existing project directory on your computer.</li>
 </ul>
-</li>
-<li>
-<p>Initialize a Git Repository</p>
+<hr />
+<h3 id="2-open-a-terminal">2️ Open a Terminal</h3>
+<p>Choose one of the following:
+- Right-click inside the folder → <strong>Git Bash</strong>
+- Open <strong>VS Code</strong> → Press `Ctrl + `` to open the terminal</p>
+<hr />
+<h3 id="3-initialize-git">3️ Initialize Git</h3>
+<p>Start tracking your project:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>init
+</code></pre></div>
+<hr />
+<h3 id="4-check-status-optional">4️ Check Status <em>(Optional)</em></h3>
+<p>See which files are untracked:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status
+</code></pre></div>
+<hr />
+<h3 id="5-stage-files">5️ Stage Files</h3>
+<p>Add all files to staging:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+</code></pre></div>
+<hr />
+<h3 id="6-commit-changes">6️ Commit Changes</h3>
+<p>Save your files with a message:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Initial commit&quot;</span>
+</code></pre></div>
+<hr />
+<h3 id="7-create-a-github-repository">7️ Create a GitHub Repository</h3>
 <ul>
-<li><strong>Run</strong> the following command to start tracking your project with Git:</li>
+<li>Go to GitHub</li>
+<li>Click <strong>New Repository</strong></li>
+<li>⚠️ Do <strong>NOT</strong> initialize with a README if your project already has files</li>
 </ul>
-<p><code>git init</code></p>
-</li>
-<li>
-<p>Check Repository Status (Optional)</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Do not initialize the repository with a README, .gitignore, or license if you already have a local project.</p>
+</div>
+<hr />
+<h3 id="8-copy-repository-url">8️ Copy Repository URL</h3>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code>https://github.com/username/repo.git
+</code></pre></div>
+<hr />
+<h3 id="9-add-remote-origin">9️ Add Remote Origin</h3>
+<p>Link your local project to GitHub:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>origin<span class="w"> </span>https://github.com/username/repo.git
+</code></pre></div>
+<hr />
+<h3 id="10-verify-remote-optional">10 Verify Remote <em>(Optional)</em></h3>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>-v
+</code></pre></div>
+<hr />
+<h3 id="11-push-to-github">11 Push to GitHub</h3>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>main
+</code></pre></div>
+<blockquote>
+<p>💡 Use <code>master</code> instead of <code>main</code> if your branch uses that name.</p>
+</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can check your branch name using:
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch
+</code></pre></div></p>
+</div>
+<hr />
+<h3 id="12-confirm-upload">12 Confirm Upload</h3>
 <ul>
-<li><strong>Verify</strong> which files are untracked:</li>
+<li>Refresh your GitHub repository page</li>
+<li>Ensure all files have been uploaded successfully</li>
 </ul>
-<p><code>git status</code></p>
-</li>
-<li>
-<p>Stage All Files</p>
-<ul>
-<li><strong>Add</strong> all project files to staging:</li>
-</ul>
-<p><code>git add .</code></p>
-</li>
-<li>
-<p>Commit the Files</p>
-<ul>
-<li><strong>Save</strong> the staged files with a message:</li>
-</ul>
-<p><code>git commit -m "Initial commit"</code></p>
-</li>
-<li>
-<p>Create a New Repository on GitHub</p>
-<ul>
-<li>Go to GitHub and <strong>create</strong> a new repository (do not initialize it with a README if you already have files locally).</li>
-</ul>
-</li>
-<li>
-<p>Copy the Repository URL</p>
-<ul>
-<li>From your GitHub repo page, <strong>copy</strong> the HTTPS URL (e.g., https://github.com/username/repo.git).</li>
-</ul>
-</li>
-<li>
-<p>Add the Remote Repository</p>
-<ul>
-<li><strong>Link</strong> your local project to GitHub:</li>
-</ul>
-<p><code>git remote add origin https://github.com/username/repo.git</code></p>
-</li>
-<li>
-<p>Verify Remote Connection (Optional)</p>
-<p><code>git remote -v</code></p>
-</li>
-<li>
-<p>Push to GitHub</p>
-<ul>
-<li><strong>Send</strong> your code to the remote repository:</li>
-</ul>
-<p><code>git push -u origin main</code></p>
-<p>(Use master instead of main if your branch uses that name.)</p>
-</li>
-<li>
-<p>Confirm Upload</p>
-<ul>
-<li><strong>Refresh</strong> your GitHub repository page to ensure all files have been uploaded successfully.</li>
-</ul>
-</li>
-</ol>
+<hr />
+<h2 id="done">Done!</h2>
+<p>Your project is now successfully pushed to GitHub and ready for collaboration 🚀</p>
 
 
 

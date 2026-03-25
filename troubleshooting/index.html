@@ -71,6 +71,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -395,6 +400,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -434,9 +441,103 @@
 
 
 
-  <h1>troubleshooting</h1>
-
-
+<h1 id="troubleshooting">Troubleshooting</h1>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Probable Cause</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Git Bash does not appear in the VS Code terminal profile list</td>
+<td>Git for Windows is not installed, or VS Code did not detect Git Bash automatically</td>
+<td>Install Git for Windows, then restart VS Code. If it still does not appear, manually add the Git Bash profile in <code>settings.json</code>.</td>
+</tr>
+<tr>
+<td>Git Bash opens in VS Code but does not work correctly</td>
+<td>The Git Bash executable path is incorrect</td>
+<td>Check that the path points to the correct file, such as <code>C:\Program Files\Git\bin\bash.exe</code>.</td>
+</tr>
+<tr>
+<td>The terminal opens PowerShell instead of Git Bash</td>
+<td>Git Bash was not selected as the default terminal profile</td>
+<td>Open the terminal profile menu in VS Code and set <strong>Git Bash</strong> as the default profile.</td>
+</tr>
+<tr>
+<td><code>git</code> is not recognized as a command</td>
+<td>Git is not installed or was not added to the system PATH</td>
+<td>Reinstall Git for Windows and ensure Git is added to PATH during installation. Restart the terminal afterward.</td>
+</tr>
+<tr>
+<td>Unable to create a new repository on GitHub</td>
+<td>You are not signed in, or the repository name is already in use</td>
+<td>Sign in to GitHub and choose a unique repository name.</td>
+</tr>
+<tr>
+<td>The <strong>New repository</strong> option is missing</td>
+<td>You may not be signed in correctly, or you do not have permission in the selected organization</td>
+<td>Confirm you are signed in to the correct GitHub account and check organization permissions if applicable.</td>
+</tr>
+<tr>
+<td><code>git init</code> does not work</td>
+<td>The terminal is not opened in the correct project folder</td>
+<td>Navigate to the project directory first, then run <code>git init</code> again.</td>
+</tr>
+<tr>
+<td><code>git add .</code> does not stage files</td>
+<td>You may be in the wrong folder, or there are no files in the directory</td>
+<td>Run <code>git status</code> to confirm your current folder and check that your project files are present.</td>
+</tr>
+<tr>
+<td><code>git commit -m "Initial commit"</code> fails</td>
+<td>Git username and email are not configured</td>
+<td>Configure Git with <code>git config --global user.name "Your Name"</code> and <code>git config --global user.email "your@email.com"</code>, then try again.</td>
+</tr>
+<tr>
+<td><code>remote origin already exists</code> appears</td>
+<td>A remote repository has already been linked to the local project</td>
+<td>Check existing remotes with <code>git remote -v</code>. Update it with <code>git remote set-url origin &lt;repository-url&gt;</code> if needed.</td>
+</tr>
+<tr>
+<td><code>git push -u origin main</code> fails because the branch does not exist</td>
+<td>Your local branch may still be named <code>master</code> instead of <code>main</code></td>
+<td>Run <code>git branch -M main</code> and then push again, or use the correct existing branch name.</td>
+</tr>
+<tr>
+<td>Authentication failed when pushing to GitHub</td>
+<td>Your login credentials are incorrect, expired, or GitHub requires a personal access token</td>
+<td>Sign in again and use a personal access token if prompted instead of your GitHub password.</td>
+</tr>
+<tr>
+<td>The repository on GitHub is empty after pushing</td>
+<td>The push did not complete successfully, or files were never committed</td>
+<td>Run <code>git status</code> and <code>git log</code> to confirm your files were committed, then push again.</td>
+</tr>
+<tr>
+<td><code>git clone</code> fails</td>
+<td>The repository URL is incorrect, or you do not have permission to access the repository</td>
+<td>Copy the repository URL again from GitHub and verify that the repository exists and is accessible to your account.</td>
+</tr>
+<tr>
+<td>The cloned folder does not appear where expected</td>
+<td>The terminal was opened in a different directory before cloning</td>
+<td>Run <code>pwd</code> to confirm your location, then clone the repository into the correct folder.</td>
+</tr>
+<tr>
+<td>Downloaded ZIP file does not include version control features</td>
+<td>ZIP downloads do not preserve Git history or repository connection</td>
+<td>Use <code>git clone</code> instead if you need full version control and the ability to pull or push changes.</td>
+</tr>
+<tr>
+<td>Changes made after downloading a ZIP file cannot be pushed to GitHub</td>
+<td>The ZIP method does not connect the project to GitHub automatically</td>
+<td>Initialize Git with <code>git init</code>, add a remote repository, commit your files, and then push them manually.</td>
+</tr>
+</tbody>
+</table>
 
 
 

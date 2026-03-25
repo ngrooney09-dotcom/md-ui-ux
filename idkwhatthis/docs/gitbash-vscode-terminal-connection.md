@@ -16,32 +16,23 @@ This documentation uses Git Bash for demonstration. If you are already familiar 
 ---
 
 ### 2 Open the Menu
-
-<p align="center">
-  <img src="assets/images/threeDots.png" width="50%">
-</p>
-
 - Click on the **three dots** at the top left.
+
+![Three dots](assets/images/threeDots.png){ width=50% }
 
 ---
 
 ### 3 Open Terminal Menu
-
-<p align="center">
-  <img src="assets/images/terminal.png" width="50%">
-</p>
-
 - Click on the **Terminal** option from the dropdown.
+
+![Terminal dropdown](assets/images/terminal.png){ width=50% }
 
 ---
 
 ### 4 Create New Terminal
-
-<p align="center">
-  <img src="assets/images/newTerminal.png" width="50%">
-</p>
-
 - Select **New Terminal**.
+
+![New Terminal](assets/images/newTerminal.png){ width=50% }
 
 ---
 
@@ -51,32 +42,23 @@ This documentation uses Git Bash for demonstration. If you are already familiar 
 ---
 
 ### 6 Open Terminal Options
-
-<p align="center">
-  <img src="assets/images/terminalWindow.png" width="50%">
-</p>
-
 - Click on the terminal menu.
+
+![Terminal Window](assets/images/terminalWindow.png){ width=50% }
 
 ---
 
 ### 7 Open Dropdown Options
-
-<p align="center">
-  <img src="assets/images/downArrow.png" width="50%">
-</p>
-
 - Click the dropdown arrow next to the **+** icon.
+
+![Dropdown arrow](assets/images/downArrow.png){ width=50% }
 
 ---
 
-### 8️ Select Git Bash
-
-<p align="center">
-  <img src="assets/images/terminalMenu.png" width="50%">
-</p>
-
+### 8 Select Git Bash
 - Check if **Git Bash** is listed and select it.
+
+![Terminal menu](assets/images/terminalMenu.png){ width=50% }
 
 ---
 

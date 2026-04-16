@@ -1,0 +1,16 @@
+site_name: UX/UI Reports
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Week 1: w1.md
+  - Week 2: w2.md
+  - Week 3: w3.md
+  - Week 4: w4.md
+  - Week 5: w5.md
+  - Week 6: w6.md
+  - Week 9: w9.md
+  - Week 10: w10.md
+  - Week 12: w12.md
+  - Week 14: w14.md
